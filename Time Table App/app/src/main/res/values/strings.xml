@@ -135,4 +135,40 @@
         <item>10:45AM - 11:15AM</item>
         <item>11:15AM - 1:05PM</item>
     </string-array>
+
+    <string-array name="fname">
+        <item>Arjun Sir</item>
+        <item>Sirish Sir</item>
+        <item>Chethan Sir</item>
+    </string-array>
+
+    <string-array name="femail">
+        <item>arjuncv@manipal.edu</item>
+        <item>s.sirish@manipal.edu</item>
+        <item>s.chethan@manipal.edu</item>
+    </string-array>
+
+    <string-array name="sub_name">
+        <item>DMPA</item>
+        <item>WCC</item>
+        <item>EEFM</item>
+        <item>PE2</item>
+        <item>PE3</item>
+        <item>OE</item>
+        <item>DMPA LAB</item>
+        <item>NP LAB</item>
+        <item>MAD LAB</item>
+    </string-array>
+
+    <string-array name="resou">
+        <item>DMPA - Hans 4th Edition</item>
+        <item>WCC - Rappaport 3rd Edition</item>
+        <item>EEFM - Enginnering Economics by Gerogie Watt</item>
+        <item>PE2 -Refer to SLCM</item>
+        <item>PE3 - Refer to SLCM</item>
+        <item>OE - Refer to Slides in SLCM</item>
+        <item>DMPA LAB - Refer To The Manual</item>
+        <item>NP LAB - Refer to the Manual</item>
+        <item>MAD LAB - Refer to the Manual</item>
+    </string-array>
 </resources>

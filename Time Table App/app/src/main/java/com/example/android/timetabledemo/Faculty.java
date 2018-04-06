@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Faculty extends AppCompatActivity {
 
     private Toolbar toolbar;
     private ListView listView;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_faculty);
 
         setupUIViews();
         initToolbar();
@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void initToolbar(){
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Timetable App");
+        getSupportActionBar().setTitle(" Faculty Details ");
     }
 
     private void setupListView(){
 
-        String[] title = getResources().getStringArray(R.array.Main);
-        String[] description = getResources().getStringArray(R.array.Description);
+        String[] title = getResources().getStringArray(R.array.fname);
+        String[] description = getResources().getStringArray(R.array.femail);
 
         SimpleAdapter simpleAdapter = new SimpleAdapter(this, title, description);
         listView.setAdapter(simpleAdapter);
@@ -53,30 +53,19 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0: {
-                        Intent intent = new Intent(MainActivity.this, WeekActivity.class);
+                        Intent intent = new Intent(Faculty.this, ArjunSir.class);
                         startActivity(intent);
                         break;
                     }
                     case 1: {
-                        Intent intent = new Intent(MainActivity.this , Subject_Day.class );
+                        Intent intent = new Intent(Faculty.this , SirishSir.class );
                         startActivity(intent);
                         break;
                     }
                     case 2: {
-                        Intent intent = new Intent(MainActivity.this , Faculty.class );
+                        Intent intent = new Intent(Faculty.this , ChethanSir.class );
                         startActivity(intent);
                         break;
-                    }
-                    case 3: {
-                        Intent intent = new Intent(MainActivity.this , Sub_Res.class );
-                        startActivity(intent);
-                        break;
-                    }
-                    case 4:
-                    {
-                        Uri uri = Uri.parse("http://slcm.manipal.edu/loginForm.aspx");
-                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                        startActivity(intent);
                     }
                 }
             }
@@ -128,25 +117,18 @@ public class MainActivity extends AppCompatActivity {
             title.setText(titleArray[position]);
             description.setText(descriptionArray[position]);
 
-            if(titleArray[position].equalsIgnoreCase("Timetable"))
+            if(titleArray[position].equalsIgnoreCase("Arjun Sir"))
             {
+                //arjunsirkipicture
                 imageView.setImageResource(R.drawable.timetable);
             }
-            else if(titleArray[position].equalsIgnoreCase("Subjects"))
+            else if(titleArray[position].equalsIgnoreCase("Sirish Sir"))
             {
                 imageView.setImageResource(R.drawable.book);
             }
-            else if(titleArray[position].equalsIgnoreCase("Faculty"))
+            else if(titleArray[position].equalsIgnoreCase("Chethan Sir"))
             {
                 imageView.setImageResource(R.drawable.contact);
-            }
-            else if(titleArray[position].equalsIgnoreCase("Resources"))
-            {
-                imageView.setImageResource(R.drawable.settings);
-            }
-            else
-            {
-                imageView.setImageResource(R.drawable.logo);
             }
 
             return convertView;
