@@ -27,52 +27,52 @@
     </string-array>
 
     <string-array name="Monday">
-        <item>Mixed Signal Design</item>
-        <item>Analog Wave Propogation</item>
+        <item>Wireless Communications</item>
+        <item>Data Mining and Predictive Analysis</item>
         <item>Break</item>
-        <item>CT2 Lab - A1\nMSD Lab - A2</item>
+        <item>NP Lab - A1\nMAD Lab - A2</item>
         <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Cluster Elective Lab/Tut</item>
+        <item>Program Elective 2</item>
+        <item>Program Elective 3</item>
     </string-array>
 
     <string-array name="Tuesday">
-        <item>Computer Communication Networks</item>
-        <item>Communication Theory - 2</item>
+        <item>EEFM</item>
+        <item>Program Elective 3</item>
         <item>Break</item>
-        <item>Computer Communication Networks</item>
-        <item>Mixed Signal Design</item>
+        <item>Wireless Communications</item>
+        <item>Data Mining</item>
         <item>Break</item>
-        <item> CT2 Lab - A4\nMSD Lab - A1</item>
+        <item> MAD Lab - A4\nDMPA Lab - A1</item>
     </string-array>
 
     <string-array name="Wednesday">
-        <item>Antenna and Wave Propagation</item>
-        <item>Computer Communication Networks</item>
+        <item>Open Elective</item>
+        <item>Wireless Communications</item>
         <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Department Elective</item>
+        <item>Program Elctive 2</item>
+        <item>Program Elective 3</item>
         <item>Break</item>
-        <item> AWP Tutorial</item>
+        <item> EEFM</item>
     </string-array>
 
     <string-array name="Thursday">
-        <item>Antenna and Wave Propagation </item>
-        <item>Communication Theory - 2</item>
+        <item>Wireless Propagation </item>
+        <item>EEFM</item>
         <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Department Elective</item>
+        <item>Program Elective 2</item>
+        <item>Data Mining</item>
         <item>Break</item>
-        <item> CT2 Lab - A2\nMSD Lab - A3</item>
+        <item> NP Lab - A2\MAD Lab - A1</item>
     </string-array>
 
     <string-array name="Friday">
-        <item> CT2 Lab - A3\nMSD Lab - A4</item>
+        <item> MAD Lab - A2\nDMPA Lab - A1</item>
         <item>Break</item>
-        <item>Mixed Signal Design</item>
-        <item>Communication Theory - 2</item>
+        <item>EEFM</item>
+        <item>WCC</item>
         <item>Break</item>
-        <item>Department Elective Tut</item>
+        <item>Program Elective 3</item>
     </string-array>
 
     <string-array name="Saturday">
@@ -82,52 +82,53 @@
     </string-array>
 
     <string-array name="time1">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 2:55PM</item>
-        <item>2:55PM - 4:45PM</item>
+        <item>8AM - 9AM</item>
+        <item>9AM - 10AM</item>
+        <item>10AM - 10:30AM</item>
+        <item>10:30AM - 11:30PM</item>
+        <item>11:30PM - 12:30PM</item>
+        <item>2:00PM - 3:00PM</item>
+        <item>3PM - 4PM</item>
     </string-array>
 
     <string-array name="time2">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8AM - 9AM</item>
+        <item>9AM - 10AM</item>
+        <item>10AM - 10:30AM</item>
+        <item>10:30AM - 11:30PM</item>
+        <item>11:30PM - 12PM</item>
+        <item>1PM - 2PM</item>
+        <item>2:00PM - 3PM</item>
     </string-array>
 
     <string-array name="time3">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8AM - 9AM</item>
+        <item>9AM - 10AM</item>
+        <item>10AM - 10:30AM</item>
+        <item>10:30AM - 11:30PM</item>
+        <item>11:30PM - 12PM</item>
+        <item>1PM - 2PM</item>
+        <item>2:00PM - 3PM</item>
     </string-array>
 
     <string-array name="time4">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8AM - 9AM</item>
+        <item>9AM - 10AM</item>
+        <item>10AM - 10:30AM</item>
+        <item>10:30AM - 11:30PM</item>
+        <item>11:30PM - 12PM</item>
+        <item>1PM - 2PM</item>
+        <item>2:00PM - 3PM</item>
     </string-array>
 
     <string-array name="time5">
-        <item>8:55AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8AM - 9AM</item>
+        <item>9AM - 10AM</item>
+        <item>10AM - 10:30AM</item>
+        <item>10:30AM - 11:30PM</item>
+        <item>11:30PM - 12PM</item>
+        <item>1PM - 2PM</item>
+        <item>2:00PM - 3PM</item>
     </string-array>
 
     <string-array name="time6">

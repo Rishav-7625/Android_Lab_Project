@@ -120,15 +120,15 @@ public class Faculty extends AppCompatActivity {
             if(titleArray[position].equalsIgnoreCase("Arjun Sir"))
             {
                 //arjunsirkipicture
-                imageView.setImageResource(R.drawable.timetable);
+                imageView.setImageResource(R.drawable.arjunsir);
             }
             else if(titleArray[position].equalsIgnoreCase("Sirish Sir"))
             {
-                imageView.setImageResource(R.drawable.book);
+                imageView.setImageResource(R.drawable.sirishsir);
             }
             else if(titleArray[position].equalsIgnoreCase("Chethan Sir"))
             {
-                imageView.setImageResource(R.drawable.contact);
+                imageView.setImageResource(R.drawable.chethansir);
             }
 
             return convertView;

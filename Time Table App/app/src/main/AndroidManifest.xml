@@ -23,7 +23,9 @@
         <activity android:name=".Faculty" />
         <activity android:name=".ArjunSir" />
         <activity android:name=".SirishSir" />
-        <activity android:name=".ChethanSir"></activity>
+        <activity android:name=".ChethanSir" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".DevActivity"></activity>
     </application>
 
 </manifest>
