@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TimeTable Demo</string>
+    <string name="app_name">SKED</string>
 
     <string-array name="Main">
         <item> Timetable </item>

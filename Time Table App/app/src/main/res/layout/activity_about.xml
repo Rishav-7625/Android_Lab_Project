@@ -12,6 +12,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="#158e15"
-        android:text="hhhhhhhhhhhhhhhhhhhhhhhhhhhsdddddddddddddddddddddddddddobcobwuobwobowbobvowbuovbwuobvuowbvuobvuobwuobvwuobvouwbuovbwobvwuvbwuobvwuobvuowbvuowbvuoobvwruobvwuorbvuowbvuwbvuowrbvownklwd nksdncklnodcnoiwencbuwebcwebucbweuocbowubc"/>
+        android:text="It is an android application to provide the timetable of class to the students of college. The application will provide information to the students along with the timetable such as faculty details like name, contact information, email ID. It will also provide the study materials of each subjects like notes and references related to the subjects. It’s an attempt to combine the features of SLCM and the root things of online resources, timetable and faculty details into a single application, in order to save time of students."/>
 
 </LinearLayout>
